@@ -26,6 +26,7 @@
 }
 
 
+
 /*** Spinner ***/
 #spinner {
     opacity: 0;
@@ -104,9 +105,9 @@
 }
 
 .navbar-dark .navbar-brand img {
-    max-height: 60px;
-    transition: .5s;
+    display: none; /* Hide the image */
 }
+
 
 .sticky-top.navbar-dark .navbar-brand img {
     max-height: 45px;
@@ -158,9 +159,6 @@
     background-size: cover;
 }
 
-.hero-header img {
-    animation: imgRotate 50s linear infinite;
-}
 
 @keyframes imgRotate { 
     100% { 
@@ -224,6 +222,22 @@
 .service-item:hover * {
     color: var(--light) !important;
 }
+.education-title {
+    text-align: center;
+    font-size: 28px; /* Adjust size */
+    font-weight: bold;
+    color: #FEA116; /* Change color */
+    font-family: 'Arial', sans-serif; /* Change font */
+    text-transform: uppercase; /* Uppercase style */
+}
+
+.underline {
+    width: 250px; /* Adjust line width */
+    height: 4px; /* Adjust line thickness */
+    background-color: #FEA116; /* Line color */
+    margin: 12px auto; /* Center the line */
+}
+
 
 
 /*** Food Menu ***/
@@ -348,6 +362,22 @@
     background: #000000;
     opacity: 1;
 }
+.achievement-title {
+    text-align: center;
+    font-size: 25px; /* Adjust size */
+    font-weight: bold;
+    color: #FEA116; /* Change color */
+    font-family: 'Arial', sans-serif; /* Change font */
+    text-transform: uppercase; /* Uppercase style */
+}
+
+.underline {
+   width: 250px; /* Adjust line width */
+    height: 4px; /* Adjust line thickness */
+    background-color: #FEA116; /* Line color */
+    margin: 12px auto; /* Center the line */
+}
+
 
 
 /*** Team ***/
@@ -372,6 +402,212 @@
 .team-item .btn {
     border-radius: 38px 38px 0 0;
 }
+.my-hobbies-title {
+    text-align: center;
+    font-size: 25px; /* Adjust size */
+    font-weight: bold;
+    color: #FEA116; /* Color same as underline */
+    font-family: 'Arial', sans-serif; /* Change font */
+}
+
+.underline {
+   width: 250px; /* Adjust line width */
+    height: 4px; /* Adjust line thickness */
+    background-color: #FEA116; /* Line color same as title */
+    margin: 12px auto; /* Center the line */
+}
+.team-image {
+    width: 150%;
+    height: 200px;
+    object-fit: cover;
+}
+.headline-btn {
+    font-size: 16px;  /* Slightly smaller font size */
+    color: white;     /* Text color */
+    background-color: #FFA500;  /* Light orange background color */
+    border: none;     /* Remove default button border */
+    padding: 12px 25px;  /* Reduced padding for a more moderate button size */
+    margin-top: 10px;  /* Space between the image and button */
+    border-radius: 8px;  /* Rounded corners */
+    cursor: pointer;  /* Pointer cursor on hover */
+    display: inline-block;  /* Align the button properly */
+}
+
+.headline-btn:hover {
+    background-color: #FF8C00;  /* Darker orange on hover */
+}
+.orange-heading {
+    color: #FFA500;  /* Light orange color */
+}
+.text-side {
+    text-align: left; /* Align text to the left */
+    padding: 20px;    /* Add some padding around the content */
+}
+
+.orange-heading {
+    color: #FFA500; /* Light orange color for the heading */
+    font-size: 24px; /* Size of the heading */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.text-side {
+    text-align: left; /* Align text to the left */
+    padding: 20px;    /* Add some padding around the content */
+    padding-left: 40px;  /* Increase left padding to push content to the right */
+    margin-left: 20px;   /* Add margin to the left for further shifting */
+}
+
+.orange-heading {
+    color: #FFA500; /* Light orange color for the heading */
+    font-size: 24px; /* Size of the heading */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.text-side {
+    text-align: left; /* Align text to the left */
+    padding: 20px;    /* Add some padding around the content */
+    padding-left: 40px;  /* Increase left padding to push content to the right */
+    margin-left: 20px;   /* Add margin to the left for further shifting */
+}
+
+.orange-heading {
+    color: #FFA500; /* Light orange color for the heading */
+    font-size: 24px; /* Size of the heading */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.text-side {
+    text-align: left; /* Align text to the left */
+    padding: 20px;    /* Add some padding around the content */
+    padding-left: 40px;  /* Increase left padding to push content to the right */
+    margin-left: 20px;   /* Add margin to the left for further shifting */
+}
+
+.orange-heading {
+    color: #FFA500; /* Light orange color for the heading */
+    font-size: 24px; /* Size of the heading */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.text-side {
+    text-align: left; /* Align text to the left */
+    padding: 20px;    /* Add some padding around the content */
+    padding-left: 40px;  /* Increase left padding to push content to the right */
+    margin-left: 20px;   /* Add margin to the left for further shifting */
+}
+
+.orange-heading {
+    color: #FFA500; /* Light orange color for the heading */
+    font-size: 24px; /* Size of the heading */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.text-side {
+    text-align: left; /* Align text to the left */
+    padding: 20px;    /* Add some padding around the content */
+    padding-left: 40px;  /* Increase left padding to push content to the right */
+    margin-left: 20px;   /* Add margin to the left for further shifting */
+}
+
+.orange-heading {
+    color: #FFA500; /* Light orange color for the heading */
+    font-size: 24px; /* Size of the heading */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.text-side {
+    text-align: left; /* Align text to the left */
+    padding: 20px;    /* Add some padding around the content */
+    padding-left: 40px;  /* Increase left padding to push content to the right */
+    margin-left: 20px;   /* Add margin to the left for further shifting */
+}
+
+.orange-heading {
+    color: #FFA500; /* Light orange color for the heading */
+    font-size: 24px; /* Size of the heading */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.text-side {
+    text-align: left; /* Align text to the left */
+    padding: 20px;    /* Add some padding around the content */
+    padding-left: 40px;  /* Increase left padding to push content to the right */
+    margin-left: 30px;   /* Add margin to the left for further shifting */
+}
+
+.orange-heading {
+    color: #FFA500; /* Light orange color for the heading */
+    font-size: 24px; /* Size of the heading */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.contact-info p,
+.contact-info h4 {
+    margin: 10px 0; /* Spacing between the contact info items */
+    font-size: 16px; /* Font size for text */
+}
+
+.contact-info strong {
+    font-weight: bold; /* Bold for the labels (Phone, Email, Address) */
+}
+
+.contact-info .light-text {
+    font-weight: normal; /* Regular weight for the rest of the text */
+    color: #555; /* Slightly lighter color for the non-bold text */
+}
+
+.contact-info a {
+    color: #000; /* Make phone and email text black */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.contact-info a:hover {
+    color: #FFA500; /* Change link color to light orange on hover */
+}
+
+/* Social Media Icons Styling */
+.social-links {
+    margin-top: 40px;
+    display: flex; /* Align icons horizontally */
+    justify-content: flex-start; /* Align to the left */
+}
+
+.social-icon {
+    display: inline-block;
+    margin: 10px 30px; /* Increased space between icons */
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 50%;
+    text-decoration: none;
+    color: #fff; /* White color for icons */
+    transition: background-color 0.3s;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 20px; /* Centering the icons */
+}
+
+.social-icon:hover {
+    background-color: #FFA500; /* Change to light orange on hover */
+}
+
+/* Specific social media icon colors */
+.facebook {
+    background-color: #3b5998; /* Facebook blue */
+}
+
+.linkedin {
+    background-color: #0077b5; /* LinkedIn blue */
+}
+
+.github {
+    background-color: #333; /* GitHub dark gray */
+}
+
+.instagram {
+    background-color: #e4405f; /* Instagram pink */
+}
+
 
 
 /*** Testimonial ***/
@@ -411,6 +647,24 @@
     background: var(--primary);
     border-color: var(--primary);
 }
+.bg-dark {
+    width: 100vw; /* Make the black box take up the full width of the viewport */
+    left: 0; /* Ensure it starts from the very edge of the screen */
+    position: relative; /* Position relative to the viewport */
+}
+
+.container-xxl {
+    padding: 0; /* Remove any extra padding */
+}
+
+.p-5 {
+    padding: 40px; /* Increase the padding to create space around the content */
+}
+
+form {
+    max-width: 100%; /* Ensure the form stretches to fill the container */
+}
+
 
 
 /*** Footer ***/
@@ -477,3 +731,31 @@
     padding-right: 0;
     border-right: none;
 }
+
+.button {
+  display: inline-block;
+  padding: 9px 15px;
+  background-color: orange; /* Green background */
+  color: white; /* White text */
+  text-align: center;
+  text-decoration: none; /* Removes underline */
+  border-radius: 4px; /* Rounded corners */
+  font-size: 12px;
+}
+
+.button:hover {
+  background-color: orange; /* Darker green on hover */
+}
+
+.login-text {
+  font-size: 15px;
+
+}
+
+
+
+
+
+
+
+
